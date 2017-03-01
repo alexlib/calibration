@@ -1,0 +1,142 @@
+# PTV experiment configuration file
+# Generated 21-Feb-2017
+
+
+ 4	# ncams
+
+######## cam 0 ########
+1280			# Npix_x
+1024			# Npix_y
+ 0.01400000		# pixsize_x (mm)
+ 0.01400000		# pixsize_y (mm)
+139.27775005		# effective focal length (mm)
+0		# radial distortion kr (1/pixel)
+1		# radial distortion kx (1/pixel)
+ -0.73647867	# R
+  0.67634937	# R
+  0.01227585	# R
+  0.10795154	# R
+  0.09959541	# R
+  0.98915480	# R
+  0.66779161	# R
+  0.72981661	# R
+ -0.14636285	# R
+    -0.59575286	# T
+    -0.34605043	# T
+  1290.93422942	# T
+ -0.73647867	# Rinv
+  0.10795154	# Rinv
+  0.66779161	# Rinv
+  0.67634937	# Rinv
+  0.09959541	# Rinv
+  0.72981661	# Rinv
+  0.01227585	# Rinv
+  0.98915480	# Rinv
+ -0.14636285	# Rinv
+  -862.47644893	# Tinv
+  -941.70783894	# Tinv
+   189.29442802	# Tinv
+
+######## cam 1 ########
+1280			# Npix_x
+1024			# Npix_y
+ 0.01400000		# pixsize_x (mm)
+ 0.01400000		# pixsize_y (mm)
+140.45735479		# effective focal length (mm)
+0		# radial distortion kr (1/pixel)
+1		# radial distortion kx (1/pixel)
+  0.67228803	# R
+  0.74028880	# R
+  0.00114146	# R
+  0.13028116	# R
+ -0.11983148	# R
+  0.98420894	# R
+  0.72873564	# R
+ -0.66152317	# R
+ -0.17700695	# R
+    -0.48370853	# T
+    -0.38792398	# T
+  1286.05967420	# T
+  0.67228803	# Rinv
+  0.13028116	# Rinv
+  0.72873564	# Rinv
+  0.74028880	# Rinv
+ -0.11983148	# Rinv
+ -0.66152317	# Rinv
+  0.00114146	# Rinv
+  0.98420894	# Rinv
+ -0.17700695	# Rinv
+  -936.82178422	# Tinv
+   851.06987738	# Tinv
+   228.02385509	# Tinv
+
+######## cam 2 ########
+1280			# Npix_x
+1024			# Npix_y
+ 0.01400000		# pixsize_x (mm)
+ 0.01400000		# pixsize_y (mm)
+136.89903707		# effective focal length (mm)
+0		# radial distortion kr (1/pixel)
+1		# radial distortion kx (1/pixel)
+ -0.73944198	# R
+  0.67305406	# R
+  0.01495927	# R
+ -0.06638738	# R
+ -0.09501177	# R
+  0.99326003	# R
+  0.66993900	# R
+  0.73346506	# R
+  0.11493799	# R
+    -0.96455783	# T
+    -1.53457416	# T
+  1248.29324897	# T
+ -0.73944198	# Rinv
+ -0.06638738	# Rinv
+  0.66993900	# Rinv
+  0.67305406	# Rinv
+ -0.09501177	# Rinv
+  0.73346506	# Rinv
+  0.01495927	# Rinv
+  0.99326003	# Rinv
+  0.11493799	# Rinv
+  -837.09544650	# Tinv
+  -915.07608176	# Tinv
+  -141.93765797	# Tinv
+
+######## cam 3 ########
+1280			# Npix_x
+1024			# Npix_y
+ 0.01400000		# pixsize_x (mm)
+ 0.01400000		# pixsize_y (mm)
+141.91476413		# effective focal length (mm)
+0		# radial distortion kr (1/pixel)
+1		# radial distortion kx (1/pixel)
+  0.67812542	# R
+  0.73480307	# R
+  0.01450396	# R
+ -0.06573669	# R
+  0.04098697	# R
+  0.99699486	# R
+  0.73200041	# R
+ -0.67704100	# R
+  0.07609782	# R
+    -0.59950400	# T
+    -1.63601242	# T
+  1273.62333181	# T
+  0.67812542	# Rinv
+ -0.06573669	# Rinv
+  0.73200041	# Rinv
+  0.73480307	# Rinv
+  0.04098697	# Rinv
+ -0.67704100	# Rinv
+  0.01450396	# Rinv
+  0.99699486	# Rinv
+  0.07609782	# Rinv
+  -931.99380845	# Tinv
+   862.80279173	# Tinv
+   -95.28017037	# Tinv
+
+#### parameter for 3D matching ####
+
+0.1	# mindist_pix (pixel)
+1	# mindist_3D (mm)
